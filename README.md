@@ -4,17 +4,13 @@
 There maybe some useful scripts here for people trying to
 add a ThinkVision LT1421 USB monitor in Linux (ubuntu / mint)
 
-I'm using it in a haphazard way on my Thinkpad e420s on Linux Mint
-
-I was using the script (butchered) on
+I am  using the script (butchered) on
 Linux Mint 18.2 Sonya /  lenovo Thinkpad e420s
 
 Also I've got a script which trys to control the fan from spinning all day long
 
 
-
-Big shout out to the guys who gave me the code ..
-
+# Big shout out to the guys who gave me the code ..
 
 * thecaffiend's repo [https://github.com/thecaffiend/tvlt1421_ubuntu]
 
