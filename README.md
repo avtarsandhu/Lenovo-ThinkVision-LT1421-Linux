@@ -1,13 +1,16 @@
-# Fanless computers are the future ....
+# ThinkVision LT1421 USB monitor
 
 
 There maybe some useful scripts here for people trying to
 add a ThinkVision LT1421 USB monitor in Linux (ubuntu / mint)
+I tried and failed to make  Displaylink drivers  work automatically
+I failed but I'm not the only one  
 
 I am  using the script (butchered) on
-Linux Mint 18.2 Sonya /  lenovo Thinkpad e420s
+Linux Mint 18.2 Sonya /  
 
-Also I've got a script which trys to control the fan from spinning all day long
+    lenovo Thinkpad e420s
+    dell latitude e6220   
 
 
 # Big shout out to the guys who gave me the code ..
@@ -17,21 +20,16 @@ Also I've got a script which trys to control the fan from spinning all day long
 
 # Usage
 
-Make the *.bash scripts executable
+Make the *script executable
 
-$ chmod +x thinkvision-left-hdmi-right.bash thinkvision-set-left.bash thinkvision-set-right.bash
+$ chmod +x usbmonitor
 
 
 This sets the thinkvision right
 
-    $ bash thinkvision-set-right.bash on
+    $ ./usbmonitor on
 
-Off can be used with any of the bash scripts
-ex:
-
-    $ bash thinkvision-set-left.bash off
-
-Best to create an alias for these so you can use them quickly git
+Off  $ ./usbmonitor off
 
 
 
@@ -42,7 +40,5 @@ Run
     $ xrandr
 
 After you do this, look for the name of your monitor, on the X1 was LVDS1,
-
-
 Once you know this, you can change the code in these files change them.
 Find where LVDS1 is referenced  change that to your monitor.
