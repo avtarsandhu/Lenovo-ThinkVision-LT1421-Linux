@@ -47,7 +47,7 @@ then
    xrandr --newmode "1368x768"  85.72  1368 1440 1584 1800  768 769 772 795  -HSync +Vsync
    xrandr --addmode $DVIN 1368x768
    xrandr --output $DVIN --off
-   xrandr --output $DVIN --mode "1368x768" --rate 59.90 --right-of LVDS1 
+   xrandr --output $DVIN --mode "1368x768" --rate 59.80 --right-of LVDS1 
 else
    # shouldn't be able to get here unless "$1" is "off" 
    xrandr --output $DVIN --off
